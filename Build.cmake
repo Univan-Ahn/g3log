@@ -1,6 +1,6 @@
 SET(LOG_SRC ${g3log_SOURCE_DIR}/src)
 include_directories(${LOG_SRC})
-SET(ACTIVE_CPP0xx_DIR "Release")
+#SET(ACTIVE_CPP0xx_DIR "Release")
 
 #cmake -DCMAKE_CXX_COMPILER=clang++ ..
   # WARNING: If Clang for Linux does not work with full C++11 support it might be your
