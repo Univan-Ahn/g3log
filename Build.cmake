@@ -14,9 +14,9 @@ IF (${CMAKE_CXX_COMPILER_ID} MATCHES ".*Clang")
    IF (APPLE)
        set(PLATFORM_LINK_LIBRIES c++abi)
    ELSE()
-       set(PLATFORM_LINK_LIBRIES rt  c++abi)
+       set(PLATFORM_LINK_LIBRIES rt)
    ENDIF()
-  SET(CMAKE_CXX_FLAGS  "-Wall -std=c++11  -pthread -stdlib=libc++ -Wunused -D_GLIBCXX_USE_NANOSLEEP")
+  SET(CMAKE_CXX_FLAGS  "-Wall -std=c++11  -pthread -Wunused -D_GLIBCXX_USE_NANOSLEEP")
 
 
 
