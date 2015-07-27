@@ -88,7 +88,7 @@ endif()
    # EXAMPLE OPTIONS: By defauls is ON. This will create 'g3log-FATAL-* examples'
    # ============================================================================
    # DISABLE WITH:  -DADD_FATAL_EXAMPLE=OFF    
-   INCLUDE (${g3log_SOURCE_DIR}/example/Example.cmake)
+#   INCLUDE (${g3log_SOURCE_DIR}/example/Example.cmake)
 
 
 
@@ -96,7 +96,7 @@ endif()
    # PERFORMANCE TEST OPTIONS: Performance operations for g3log
    # ============================================================================
    # ENABLE WITH:  -DADD_G3LOG_PERFORMANCE=ON  
-   INCLUDE (${g3log_SOURCE_DIR}/test_performance/Performance.cmake)
+#   INCLUDE (${g3log_SOURCE_DIR}/test_performance/Performance.cmake)
 
       
 
@@ -104,7 +104,7 @@ endif()
    # UNIT TEST OPTIONS: 
    # ============================================================================
    # ENABLE WITH:  -DADD_G3LOG_UNIT_TEST=ON  
-   INCLUDE (${g3log_SOURCE_DIR}/test_unit/Test.cmake)
+#   INCLUDE (${g3log_SOURCE_DIR}/test_unit/Test.cmake)
 
 
 
